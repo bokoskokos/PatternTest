@@ -1,0 +1,22 @@
+﻿@model MyPegasus.Web.Models.Trip.CreateTripViewModel
+
+<h2>Create trip</h2>
+@using (Html.BeginForm("Create", "Trip"))
+{
+    @Html.HiddenFor(m => m.CustomerId)
+    <div>
+        <div>
+            @Html.LabelFor(m => m.Title)
+            @Html.EditorFor(m => m.Title)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Departure)
+            @Html.EditorFor(m => m.Departure)
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Arrival)
+            @Html.EditorFor(m => m.Arrival)
+        </div>
+    </div>
+    <input type="submit" value="Create"/>
+}

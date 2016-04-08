@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MyPegasus.Web.Models.Trip.TripViewModel>
+
+@{
+    ViewBag.Title = "Trips";
+}
+
+<h2>Trips</h2>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Arrival</th>
+        <th>Created</th>
+        <th>Departure</th>
+        <th>Title</th>
+    </tr>
+    @foreach (var trip in Model)
+    {
+        <tr>
+            <td>@trip.Id</td>
+            <td>@trip.Arrival</td>
+            <td>@trip.Created</td>
+            <td>@trip.Departure</td>
+            <td>@trip.Title</td>
+        </tr>
+    }
+</table>

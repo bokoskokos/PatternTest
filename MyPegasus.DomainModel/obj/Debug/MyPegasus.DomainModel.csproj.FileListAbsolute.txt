@@ -1,0 +1,16 @@
+C:\Bosko\PatternTest\MyPegasus.DomainModel\obj\Debug\MyPegasus.DomainModel.csprojResolveAssemblyReference.cache
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\MyPegasus.DomainModel.dll.config
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\MyPegasus.DomainModel.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\MyPegasus.DomainModel.pdb
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\EntityFramework.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\MyPegasus.Common.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\MyPegasus.Common.pdb
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\EntityFramework.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel\obj\Debug\MyPegasus.DomainModel.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel\obj\Debug\MyPegasus.DomainModel.pdb

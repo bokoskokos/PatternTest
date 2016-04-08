@@ -1,0 +1,28 @@
+﻿<h2>Search for train station by ID</h2>
+
+<div id="searchForTrainStation">
+    <input type="number" id="txtNumber"/>
+    <input type="button" id="btnSearch" value="Search"/>
+</div>
+<div id="resultBox"></div>
+
+<script type="text/javascript">
+    $(function() {
+        var container = $('div#searchForTrainStation');
+        container.find('input#btnSearch').click(function() {
+            var trainSationId = container.find('input#txtNumber').val();
+            $.ajax({
+                url: "@Url.Action("TrainStationById", "TrainStation")",
+                method: "GET",
+                data: { id: trainSationId },
+                dataType: "html",
+                success: function(data) {
+                    $('div#resultBox').html(data);
+                },
+                error: function(er) {
+                    alert(er);
+                }
+            });
+        });
+    });
+</script>
