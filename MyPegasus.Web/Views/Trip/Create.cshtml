@@ -1,22 +1,38 @@
 ﻿@model MyPegasus.Web.Models.Trip.CreateTripViewModel
 
 <h2>Create trip</h2>
-@using (Html.BeginForm("Create", "Trip"))
+@using (Html.BeginForm("Create", "Trip", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
 {
     @Html.HiddenFor(m => m.CustomerId)
     <div>
-        <div>
-            @Html.LabelFor(m => m.Title)
-            @Html.EditorFor(m => m.Title)
+        <div class="form-group">
+            @Html.LabelFor(m => m.Title, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+            </div>
         </div>
-        <div>
-            @Html.LabelFor(m => m.Departure)
-            @Html.EditorFor(m => m.Departure)
+        <div class="form-group">
+            @Html.LabelFor(m => m.Departure, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Departure, new { @class = "form-control datepicker" })
+            </div>
         </div>
-        <div>
-            @Html.LabelFor(m => m.Arrival)
-            @Html.EditorFor(m => m.Arrival)
+        <div class="form-group">
+            @Html.LabelFor(m => m.Arrival, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(m => m.Arrival, new { @class = "form-control datepicker" })
+            </div>
         </div>
     </div>
-    <input type="submit" value="Create"/>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Create" />
+        </div>
+    </div>
 }
+
+<script type="text/javascript">
+    $(function () { 
+       $('.datepicker').datepicker(); 
+    });
+</script>

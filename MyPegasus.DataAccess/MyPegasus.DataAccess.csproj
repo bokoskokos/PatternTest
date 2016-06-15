@@ -63,9 +63,9 @@
   <ItemGroup>
     <Compile Include="Database\IPegasusContext.cs" />
     <Compile Include="Database\PegasusContext.cs" />
-    <Compile Include="Database\UnitOfWork.cs" />
     <Compile Include="DeutscheBahnApi\DeutscheBahnApiClient.cs" />
     <Compile Include="DeutscheBahnApi\Dtos\TrainStation.cs" />
+    <Compile Include="DeutscheBahnApi\IDeutscheBahnApiClient.cs" />
     <Compile Include="Migrations\201603241636417_InitialMigration.cs" />
     <Compile Include="Migrations\201603241636417_InitialMigration.Designer.cs">
       <DependentUpon>201603241636417_InitialMigration.cs</DependentUpon>

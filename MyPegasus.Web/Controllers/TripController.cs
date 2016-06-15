@@ -17,10 +17,15 @@ namespace MyPegasus.Web.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult> Index(Guid customerId)
+        public async Task<ActionResult> IndexAsync(Guid customerId)
         {
             var trips = await _tripService.RetrieveTripsForCustomerAsync(customerId);
-            return View(trips);
+            var model = new AllTripsViewModel
+            {
+                CustomerId = customerId,
+                Trips = trips
+            };
+            return View(model);
         }
 
         [HttpGet]
@@ -31,7 +36,7 @@ namespace MyPegasus.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(CreateTripViewModel trip)
+        public async Task<ActionResult> CreateAsync(CreateTripViewModel trip)
         {
             await _tripService.CreateTripAsync(trip);
             return RedirectToAction("Index", new {customerId = trip.CustomerId});

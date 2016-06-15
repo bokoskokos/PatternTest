@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using MyPegasus.Common.DataAccess.DeutscheBahnApi;
 using MyPegasus.Common.DataAccess.Repositories;
 using MyPegasus.Common.DomainModel.Models;
 using MyPegasus.DataAccess.DeutscheBahnApi.Dtos;
+using MyPegasus.DataAccess.DeutscheBahnApi;
 
 namespace MyPegasus.DataAccess.Repositories
 {

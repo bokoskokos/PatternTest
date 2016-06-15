@@ -17,6 +17,10 @@ namespace MyPegasus.Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             MapperRegister.Register();
+
+            var dbMigrator = new System.Data.Entity.Migrations.DbMigrator(
+    new MyPegasus.DataAccess.Migrations.Configuration());
+            dbMigrator.Update();
         }
     }
 }

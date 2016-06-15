@@ -7,7 +7,7 @@ using MyPegasus.DomainModel.Models;
 
 namespace MyPegasus.DataAccess.Database
 {
-    public class PegasusContext : IdentityDbContext<Account, Account.GuidRole, Guid, Account.GuidUserLogin, Account.GuidUserRole, Account.GuidUserClaim>, IPegasusContext, IPegasusContextPersister
+    public class PegasusContext : IdentityDbContext<Account, Account.GuidRole, Guid, Account.GuidUserLogin, Account.GuidUserRole, Account.GuidUserClaim>, IPegasusContext, IUnitOfWork
     {
         public Guid ThisIsMyId;
 

@@ -1,17 +1,9 @@
 using System;
-using System.Configuration;
-using AutoMapper;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
 using MyPegasus.Common.DataAccess.Database;
-using MyPegasus.Common.DataAccess.DeutscheBahnApi;
-using MyPegasus.Common.Framework;
 using MyPegasus.DataAccess.Database;
 using MyPegasus.DataAccess.DeutscheBahnApi;
 using MyPegasus.Web.Mappers;
-using MyPegasus.Web.Models;
 
 namespace MyPegasus.Web.App_Start
 {
@@ -53,8 +45,7 @@ namespace MyPegasus.Web.App_Start
 
             container.RegisterWithPerRequestLifetime<IDeutscheBahnApiClient, DeutscheBahnApiClient>();
             container.RegisterWithPerRequestLifetime<IPegasusContext, PegasusContext>();
-            container.RegisterWithPerRequestLifetime<IPegasusContextPersister, PegasusContext>();
-            container.RegisterWithPerRequestLifetime<IUnitOfWork, UnitOfWork>();
+            container.RegisterWithPerRequestLifetime<IUnitOfWork, PegasusContext>();
         }
     }
 }
