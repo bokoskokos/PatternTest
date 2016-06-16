@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.DataAccess", "MyPegasus.DataAccess\MyPegasus.DataAccess.csproj", "{17CDD72B-2508-433F-A51D-5720863314DB}"
 EndProject
@@ -12,6 +12,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.Web", "MyPegasus.Web\MyPegasus.Web.csproj", "{C2411D0D-E1BF-4A9B-8F0A-E0148210B78D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.Common", "MyPegasus.Common\MyPegasus.Common.csproj", "{BD84B8F7-3B94-4340-93CB-EBAC2EF825EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.DomainModel.Tests", "MyPegasus.DomainModel.Tests\MyPegasus.DomainModel.Tests.csproj", "{FB652AB0-E2E4-4A93-A158-3A103676D2C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.Framework.Tests", "MyPegasus.Framework.Tests\MyPegasus.Framework.Tests.csproj", "{32B308AB-5BB7-4351-975F-61668ADF4DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.Web.Tests", "MyPegasus.Web.Tests\MyPegasus.Web.Tests.csproj", "{5876339F-D874-46A2-A880-F21961B68795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPegasus.DataAccess.Tests", "MyPegasus.DataAccess.Tests\MyPegasus.DataAccess.Tests.csproj", "{DBD29DAC-3B2A-4C46-8487-A4B9CF12D043}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{BD84B8F7-3B94-4340-93CB-EBAC2EF825EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD84B8F7-3B94-4340-93CB-EBAC2EF825EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD84B8F7-3B94-4340-93CB-EBAC2EF825EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB652AB0-E2E4-4A93-A158-3A103676D2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB652AB0-E2E4-4A93-A158-3A103676D2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB652AB0-E2E4-4A93-A158-3A103676D2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB652AB0-E2E4-4A93-A158-3A103676D2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B308AB-5BB7-4351-975F-61668ADF4DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B308AB-5BB7-4351-975F-61668ADF4DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B308AB-5BB7-4351-975F-61668ADF4DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B308AB-5BB7-4351-975F-61668ADF4DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5876339F-D874-46A2-A880-F21961B68795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5876339F-D874-46A2-A880-F21961B68795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5876339F-D874-46A2-A880-F21961B68795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5876339F-D874-46A2-A880-F21961B68795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD29DAC-3B2A-4C46-8487-A4B9CF12D043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD29DAC-3B2A-4C46-8487-A4B9CF12D043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD29DAC-3B2A-4C46-8487-A4B9CF12D043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD29DAC-3B2A-4C46-8487-A4B9CF12D043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,3 @@
-C:\Bosko\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.csprojResolveAssemblyReference.cache
 C:\Bosko\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Framework.dll
 C:\Bosko\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Framework.pdb
 C:\Bosko\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Common.dll

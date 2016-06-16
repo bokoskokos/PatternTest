@@ -1,0 +1,17 @@
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\MyPegasus.DomainModel.Tests.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\MyPegasus.DomainModel.Tests.pdb
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\MyPegasus.Common.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\MyPegasus.DomainModel.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\nunit.framework.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\EntityFramework.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\MyPegasus.Common.pdb
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\MyPegasus.DomainModel.pdb
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\nunit.framework.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\EntityFramework.xml
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\obj\Debug\MyPegasus.DomainModel.Tests.csprojResolveAssemblyReference.cache
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\obj\Debug\MyPegasus.DomainModel.Tests.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\obj\Debug\MyPegasus.DomainModel.Tests.pdb

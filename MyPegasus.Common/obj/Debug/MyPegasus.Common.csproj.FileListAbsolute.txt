@@ -1,7 +1,7 @@
 C:\Bosko\PatternTest\MyPegasus.Common\bin\Debug\MyPegasus.Common.dll
 C:\Bosko\PatternTest\MyPegasus.Common\bin\Debug\MyPegasus.Common.pdb
+C:\Bosko\PatternTest\MyPegasus.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Bosko\PatternTest\MyPegasus.Common\bin\Debug\Newtonsoft.Json.xml
 C:\Bosko\PatternTest\MyPegasus.Common\obj\Debug\MyPegasus.Common.csprojResolveAssemblyReference.cache
 C:\Bosko\PatternTest\MyPegasus.Common\obj\Debug\MyPegasus.Common.dll
 C:\Bosko\PatternTest\MyPegasus.Common\obj\Debug\MyPegasus.Common.pdb
-C:\Bosko\PatternTest\MyPegasus.Common\bin\Debug\Newtonsoft.Json.dll
-C:\Bosko\PatternTest\MyPegasus.Common\bin\Debug\Newtonsoft.Json.xml

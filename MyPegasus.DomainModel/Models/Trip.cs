@@ -33,17 +33,29 @@ namespace MyPegasus.DomainModel.Models
                 if (customer == null)
                     return OperationResponse<ITrip>.Error("Arrival cannot be before departure");
 
-                var trip = new Trip
+                try
                 {
-                    Title = title,
-                    Arrival = arrival,
-                    Departure = departure,
-                    CustomerInternal = (Customer)customer,
-                    Created = DateTimeOffset.UtcNow,
-                    Id = Guid.NewGuid()
-                };
+                    var trip = new Trip
+                    {
+                        Title = title,
+                        Arrival = arrival,
+                        Departure = departure,
+                        CustomerInternal = (Customer)customer,
+                        Created = DateTimeOffset.UtcNow,
+                        Id = Guid.NewGuid()
+                    };
 
-                return OperationResponse<ITrip>.Success(trip);
+                    return OperationResponse<ITrip>.Success(trip);
+
+                }
+                catch (Exception ex)
+                {
+                    var test = ex;
+                    throw;
+                }
+
+                
+                
             });
         }
 
