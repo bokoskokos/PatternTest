@@ -1,0 +1,39 @@
+﻿@model IEnumerable<MyPegasus.Web.Models.Customer.CustomerViewModel>
+@{
+    ViewBag.Title = "All Customers";
+}
+
+<h2>All Customers</h2>
+
+<div>
+    @Html.ActionLink("Create New Customer", "Create", "Customer")
+</div>
+
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>DOB</th>
+        <th>Created</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var customer in Model)
+    {
+        <tr>
+            <td>@customer.Id</td>
+            <td>@customer.FirstName</td>
+            <td>@customer.LastName</td>
+            <td>@customer.Email</td>
+            <td>@customer.DateOfBirth</td>
+            <td>@customer.Created</td>
+            <td>
+                @Html.ActionLink("Details", "Customer", "Customer", new { id = customer.Id }, null)
+                | @Html.ActionLink("Trips", "Index", "Trip", new { customerId = customer.Id }, null)
+            </td>
+        </tr>
+    }
+
+</table>
+

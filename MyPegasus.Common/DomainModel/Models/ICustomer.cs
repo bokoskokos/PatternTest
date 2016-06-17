@@ -1,4 +1,5 @@
 ﻿using MyPegasus.Common.Common;
+using System.Threading.Tasks;
 
 namespace MyPegasus.Common.DomainModel.Models
 {

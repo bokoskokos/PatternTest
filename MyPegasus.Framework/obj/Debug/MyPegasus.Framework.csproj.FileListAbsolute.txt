@@ -4,3 +4,10 @@ C:\Bosko\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Common.dll
 C:\Bosko\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Common.pdb
 C:\Bosko\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.dll
 C:\Bosko\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.pdb
+C:\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Framework.dll
+C:\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Framework.pdb
+C:\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Common.dll
+C:\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Common.pdb
+C:\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.csprojResolveAssemblyReference.cache
+C:\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.dll
+C:\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.pdb

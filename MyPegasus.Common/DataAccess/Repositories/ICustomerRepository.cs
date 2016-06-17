@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using MyPegasus.Common.DomainModel.Models;
+using System.Linq;
 
 namespace MyPegasus.Common.DataAccess.Repositories
 {
@@ -8,5 +9,6 @@ namespace MyPegasus.Common.DataAccess.Repositories
     {
         Task<ICustomer> RetrieveByIdAsync(Guid id);
         Task CreateAsync(ICustomer customer);
+        Task<IQueryable<ICustomer>> RetrieveAllAsync();
     }
 }

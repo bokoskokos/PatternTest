@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using MyPegasus.Common.DomainModel.Models;
 using MyPegasus.Framework.HandlerRequests;
@@ -30,6 +31,13 @@ namespace MyPegasus.Web.Services
             };
 
             await CallHandlerAsync<CreateCustomerHandlerRequest, CreateCustomerHandlerResponse>(request);
+        }
+
+        public async Task<IEnumerable<CustomerViewModel>> RetrieveAllAsync()
+        {
+            var response = await CallHandlerAsync<RetrieveAllCustomersHandlerRequest, RetrieveAllCustomersHandlerResponse>(new RetrieveAllCustomersHandlerRequest());
+            var viewModels = Mapper.Map<ICustomer, CustomerViewModel>(response.Customers);
+            return viewModels;
         }
     }
 }

@@ -43,10 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\PegasusLogger.cs" />
+    <Compile Include="Common\IPegasusLogger.cs" />
     <Compile Include="Common\OperationResponse.cs" />
-    <Compile Include="DataAccess\Database\IPegasusContextPersister.cs" />
     <Compile Include="DataAccess\Database\IUnitOfWork.cs" />
-    <Compile Include="DataAccess\DeutscheBahnApi\IDeutscheBahnApiClient.cs" />
     <Compile Include="DataAccess\Repositories\ICustomerRepository.cs" />
     <Compile Include="DataAccess\Repositories\ITrainStationRepository.cs" />
     <Compile Include="DataAccess\Repositories\ITripRepository.cs" />

@@ -17,6 +17,13 @@ namespace MyPegasus.Web.Controllers
         }
 
         [HttpGet]
+        public async Task<ActionResult> AllCustomersAsync()
+        {
+            var response = await _customerService.RetrieveAllAsync();
+            return View(response);
+        }
+
+        [HttpGet]
         public async Task<ActionResult> Customer(Guid id)
         {
             var response = await _customerService.RetrieveByIdAsync(id);

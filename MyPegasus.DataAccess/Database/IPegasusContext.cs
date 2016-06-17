@@ -1,5 +1,4 @@
 ﻿using System.Data.Entity;
-using MyPegasus.DomainModel;
 using MyPegasus.DomainModel.Models;
 
 namespace MyPegasus.DataAccess.Database

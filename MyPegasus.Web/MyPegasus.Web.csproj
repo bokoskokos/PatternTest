@@ -225,6 +225,7 @@
     <Compile Include="Models\Customer\CreateCustomerViewModel.cs" />
     <Compile Include="Models\Customer\CustomerVIewModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Trip\AllTripsViewModel.cs" />
     <Compile Include="Models\Trip\CreateTripViewModel.cs" />
     <Compile Include="Models\Trip\TripViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -311,6 +312,7 @@
     <Content Include="Views\Trip\Index.cshtml" />
     <Content Include="Views\Trip\Create.cshtml" />
     <Content Include="Views\TrainStation\Index.cshtml" />
+    <Content Include="Views\Customer\AllCustomers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
