@@ -15,7 +15,6 @@ namespace MyPegasus.Web.Models.Customer
 
         [Required]
         [Display(Name = "Date of Birth")]
-        [DataType(DataType.DateTime)]
         public DateTimeOffset DateOfBirth { get; set; }
 
         [Required]

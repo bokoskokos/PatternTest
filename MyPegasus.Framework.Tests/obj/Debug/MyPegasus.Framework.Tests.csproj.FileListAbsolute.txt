@@ -1,0 +1,13 @@
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\MyPegasus.Framework.Tests.dll
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\MyPegasus.Framework.Tests.pdb
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\Moq.dll
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\nunit.framework.dll
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\Moq.xml
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\nunit.framework.xml
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\obj\Debug\MyPegasus.Framework.Tests.csprojResolveAssemblyReference.cache
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\obj\Debug\MyPegasus.Framework.Tests.dll
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\obj\Debug\MyPegasus.Framework.Tests.pdb
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\MyPegasus.Common.dll
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\MyPegasus.Framework.dll
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\MyPegasus.Common.pdb
+C:\Bosko\PatternTest\MyPegasus.Framework.Tests\bin\Debug\MyPegasus.Framework.pdb

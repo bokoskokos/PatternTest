@@ -33,6 +33,13 @@
 
 <script type="text/javascript">
     $(function () { 
-       $('.datepicker').datepicker(); 
+        var dp = $('.datepicker');
+        dp.datepicker({
+            format: 'mm-dd-yyyy'
+        });
+
+        dp.on('changeDate', function (ev) {
+            dp.val(ev.target.value);
+        });
     });
 </script>

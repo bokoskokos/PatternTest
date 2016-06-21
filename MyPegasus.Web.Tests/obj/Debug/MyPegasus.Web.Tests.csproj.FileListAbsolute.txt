@@ -1,0 +1,9 @@
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\bin\Debug\MyPegasus.Web.Tests.dll
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\bin\Debug\MyPegasus.Web.Tests.pdb
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\bin\Debug\Moq.dll
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\bin\Debug\nunit.framework.dll
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\bin\Debug\Moq.xml
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\bin\Debug\nunit.framework.xml
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\obj\Debug\MyPegasus.Web.Tests.csprojResolveAssemblyReference.cache
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\obj\Debug\MyPegasus.Web.Tests.dll
+C:\Bosko\PatternTest\MyPegasus.Web.Tests\obj\Debug\MyPegasus.Web.Tests.pdb

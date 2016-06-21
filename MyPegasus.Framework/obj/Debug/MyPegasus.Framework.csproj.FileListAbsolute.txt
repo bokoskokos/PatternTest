@@ -11,3 +11,4 @@ C:\PatternTest\MyPegasus.Framework\bin\Debug\MyPegasus.Common.pdb
 C:\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.csprojResolveAssemblyReference.cache
 C:\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.dll
 C:\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.pdb
+C:\Bosko\PatternTest\MyPegasus.Framework\obj\Debug\MyPegasus.Framework.csprojResolveAssemblyReference.cache

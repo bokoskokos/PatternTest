@@ -6,7 +6,7 @@ namespace MyPegasus.Web.Models.Trip
     {
         public string Title { get; set; }
         public DateTimeOffset Departure { get; set; }
-        public DateTime Arrival { get; set; }
+        public DateTimeOffset Arrival { get; set; }
         public Guid CustomerId { get; set; }
     }
 }

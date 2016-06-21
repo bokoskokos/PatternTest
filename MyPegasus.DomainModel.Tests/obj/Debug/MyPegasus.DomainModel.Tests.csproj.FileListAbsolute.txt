@@ -15,3 +15,5 @@ C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\EntityFramework.xml
 C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\obj\Debug\MyPegasus.DomainModel.Tests.csprojResolveAssemblyReference.cache
 C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\obj\Debug\MyPegasus.DomainModel.Tests.dll
 C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\obj\Debug\MyPegasus.DomainModel.Tests.pdb
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\Moq.dll
+C:\Bosko\PatternTest\MyPegasus.DomainModel.Tests\bin\Debug\Moq.xml

@@ -48,11 +48,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="RetrieveTripsForCustomerHandlerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyPegasus.Common\MyPegasus.Common.csproj">
+      <Project>{BD84B8F7-3B94-4340-93CB-EBAC2EF825EE}</Project>
+      <Name>MyPegasus.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyPegasus.Framework\MyPegasus.Framework.csproj">
+      <Project>{FAE9EF5F-A992-4CF9-9541-59172C3608FA}</Project>
+      <Name>MyPegasus.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
